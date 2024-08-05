@@ -1,0 +1,77 @@
+/* App.css */
+body {
+  background-color: #f0f0f0;
+  font-family: 'Arial', sans-serif;
+}
+
+.roditelj-container {
+  width: auto; 
+  height: auto; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.prozor {
+  width: auto;
+  height: auto;
+  border: 2px solid purple;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.dugmici-container {
+  
+  justify-content: space-around;
+  width: 411px;
+}
+
+
+.dodaj-kontakt-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid purple;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  width:290px;
+  height: 510px;
+}
+
+.numericka-tastatura {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: orange;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.imenik-container {
+  border: 2px solid purple;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+h1{
+  font-size: 16px;
+  
+
+}
+#Donjedugme{
+  width: 50%;
+}
